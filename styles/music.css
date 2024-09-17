@@ -1,0 +1,87 @@
+/* Music Section */
+.music{
+  margin-bottom: 40px;
+}
+
+.music-cover{
+  margin: 0 auto 30px auto;
+  width: 250px;
+  height: 250px;
+}
+
+.music-cover img{
+  box-shadow: 2px 2px 30px #0d0d0d;
+}
+
+.music-header{
+  margin-bottom: 40px;
+  color: #BFBFBF;
+  font-family: Gotham;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.songs{
+  margin-bottom: 40px;
+}
+
+.song{
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.song-name{
+  padding-bottom: 7.5px;
+  font-family: Gotham;
+  font-size: 20px;
+  color: #BFBFBF;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.music-buy{
+  margin: 0 auto;
+  padding: 7.5px 0;
+  width: 200px;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2.2px solid rgba(13, 13, 13, 0.8);
+  border-radius: 2px;
+  text-align: center;
+  font-size: 18px;
+  font-family: Gotham;
+  letter-spacing: 2px;
+  color: #AFAFAF;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  cursor:pointer;
+}
+
+.music-buy:hover{
+  color: #8F8F8F;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 2.2px solid rgba(13, 13, 13, 0.6);
+}
+
+.music-price{
+  font-family: Gotham;
+  font-size: 20px;
+  color: #9F9F9F;
+  text-transform: uppercase;
+  text-decoration: line-through;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.music-sale{
+  margin-bottom: 20px;
+  font-family: Gotham;
+  font-size: 40px;
+  color: #BFBFBF;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}

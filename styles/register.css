@@ -1,0 +1,124 @@
+/* Register */
+.register{
+  margin: 50px auto;
+  width: 450px;
+  background-image: url("../images/article-background.jpg");
+  background-size: cover;
+  box-shadow: 2px 2px 6px #0d0d0d;
+}
+
+.register-form{
+  margin: 0 auto;
+  width: 65%;
+  padding: 40px 0%;
+  display: flex;
+  flex-direction: column;
+}
+
+.register-text-section{
+  margin-bottom: 8px;
+}
+
+.register-text{
+  margin-bottom: 10px;
+  padding: 10px 0;
+  width: 100%;
+  color: #BFBFBF;
+  font-size: 15px;
+  font-family: Gotham;
+  text-align: center;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 2px #0d0d0d;
+  background-color: #222222;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  box-shadow: 2px 2px 6px #0d0d0d;
+}
+
+.register-submit{
+  margin-top: 16px;
+  padding: 8.5px 0;
+  width: 100%;
+  color: #BFBFBF;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: Gotham;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #0d0d0d;
+  background-color: #252525;
+  border: none;
+  box-shadow: 2px 2px 6px #0d0d0d;
+  cursor:pointer;
+}
+
+.register-submit:hover{
+  box-shadow: 2px 4px 8px #0d0d0d;
+  text-shadow: 2px 3px 3px #0d0d0d;
+}
+
+.registration-complete{
+  margin: 30px auto;
+}
+
+.registration-complete-text{
+  margin: 0 auto 5px auto;
+  width: 100%;
+  text-align: center;
+  font-size: 17px;
+  color: #BFBFBF;
+  text-shadow: 1px 1px 2px #0d0d0d;
+}
+
+.registration-complete-button{
+  margin: 0 auto 40px auto;
+  padding: 8.5px 0;
+  width: 150px;
+  display: block;
+  background-color: #252525;
+  border: none;
+  border-radius: 2px;
+  text-align: center;
+  font-size: 18px;
+  font-family: Gotham;
+  letter-spacing: 2px;
+  color: #AFAFAF;
+  text-shadow: 2px 2px 2px #0d0d0d;
+  box-shadow: 2px 2px 6px #0d0d0d;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  cursor:pointer;
+}
+
+.registration-complete-button:hover{
+  box-shadow: 2px 4px 8px #0d0d0d;
+  text-shadow: 2px 3px 3px #0d0d0d
+}
+
+/* Responsivity */
+@media screen and (max-width: 576px){
+  .register{
+    width: 80%;
+  }
+  .register-form{
+    width: 65%;
+  }
+}
+@media screen and (max-width: 426px){
+  .register{
+    margin-top: 0;
+  }
+  .register-form{
+    width: 80%;
+  }
+}
+@media screen and (max-width: 376px){
+  .register{
+    width: 90%;
+  }
+  .register-form{
+    width: 90%;
+  }
+}

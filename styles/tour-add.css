@@ -1,0 +1,91 @@
+/* Tour Add */
+.tour{
+  margin: 0 auto;
+  width: 55%;
+}
+
+.tour-add{
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tour-add-input{
+  margin: 0 auto 15px auto;
+  padding: 10px 0;
+  display: block;
+  color: #BFBFBF;
+  font-size: 15px;
+  font-family: Gotham;
+  text-align: center;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 2px #0d0d0d;
+  background-color: #222222;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  box-shadow: 2px 2px 6px #0d0d0d;
+}
+
+.tour-add-address{
+  width: 100%;
+}
+
+.tour-add-link{
+  width: 80%;
+}
+
+.tour-add-place{
+  width: 60%;
+}
+
+.tour-add-date{
+  width: 30%;
+}
+
+.tour-add-button{
+  margin: 0 auto 40px auto;
+  padding: 8.5px 0;
+  width: 150px;
+  display: block;
+  background-color: #252525;
+  border: none;
+  border-radius: 2px;
+  text-align: center;
+  font-size: 18px;
+  font-family: Gotham;
+  letter-spacing: 2px;
+  color: #AFAFAF;
+  text-shadow: 2px 2px 2px #0d0d0d;
+  box-shadow: 2px 2px 6px #0d0d0d;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  cursor:pointer;
+}
+
+.tour-add-button:hover{
+  box-shadow: 2px 4px 8px #0d0d0d;
+  text-shadow: 2px 3px 3px #0d0d0d
+}
+
+/* Tour-Add Responsivity */
+@media screen and (max-width: 1150px){
+  .tour{
+    width: 75%;
+  }
+}
+@media screen and (max-width: 775px){
+  .tour-add-date{
+    width: 40%;
+  }
+}
+@media screen and (max-width: 575px){
+  .tour-add-date{
+    width: 180px;
+  }
+}
+@media screen and (max-width: 426px){
+  .tour-add-input{
+    width: 100%;
+  }
+}

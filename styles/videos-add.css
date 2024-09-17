@@ -1,0 +1,73 @@
+/* Videos Add */
+.videos{
+  margin: 0 auto;
+  width: 55%;
+}
+
+.videos-add{
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.videos-add-input{
+  margin: 0 auto 15px auto;
+  padding: 10px 0;
+  display: block;
+  color: #BFBFBF;
+  font-size: 15px;
+  font-family: Gotham;
+  text-align: center;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 2px #0d0d0d;
+  background-color: #222222;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  box-shadow: 2px 2px 6px #0d0d0d;
+}
+
+.videos-add-title{
+  width: 100%;
+}
+
+.videos-add-link{
+  width: 80%;
+}
+
+.videos-add-button{
+  margin: 0 auto 40px auto;
+  padding: 8.5px 0;
+  width: 150px;
+  display: block;
+  background-color: #252525;
+  border: none;
+  border-radius: 2px;
+  text-align: center;
+  font-size: 18px;
+  font-family: Gotham;
+  letter-spacing: 2px;
+  color: #AFAFAF;
+  text-shadow: 2px 2px 2px #0d0d0d;
+  box-shadow: 2px 2px 6px #0d0d0d;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  cursor:pointer;
+}
+
+.videos-add-button:hover{
+  box-shadow: 2px 4px 8px #0d0d0d;
+  text-shadow: 2px 3px 3px #0d0d0d
+}
+
+/* Videos-Add Responsivity */
+@media screen and (max-width: 1150px){
+  .videos{
+    width: 75%;
+  }
+}
+@media screen and (max-width: 426px){
+  .videos-add-input{
+    width: 100%;
+  }
+}

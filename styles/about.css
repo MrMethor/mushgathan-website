@@ -1,0 +1,51 @@
+/* About */
+.about{
+  margin: 0 auto 20px auto;
+  display: flex;
+  flex-direction: column;
+  font-family: Gotham;
+  letter-spacing: 2px;
+}
+
+.about-members{
+  margin: 20px 0;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #8F8F8F;
+  text-align: center;
+}
+
+.about-members-header{
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.about-members-text{
+  margin-bottom: 10px;
+}
+
+.about-members-names{
+  margin-bottom: 25px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.about-bio{
+  margin: 0 auto;
+  width: 60%;
+  color: #AFAFAF;
+  font-size: 16px;
+  text-align: center;
+}
+
+.about-bio-text{
+  margin-bottom: 20px;
+}
+
+/* Responsivity */
+@media screen and (max-width: 426px){
+  .about-bio{
+    width: 80%;
+  }
+}

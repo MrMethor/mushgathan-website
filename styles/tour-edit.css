@@ -1,0 +1,85 @@
+/* Edit Tour */
+.tour-edit{
+  margin: 30px auto 30px auto;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.tour-edit-date{
+  margin: 0 auto 30px auto;
+  width: 150px;
+}
+
+.tour-edit-date-input{
+  width: 100%;
+  font-size: 20px;
+  font-family: Gotham;
+  text-align: center;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 2px #0d0d0d;
+  background-color: none;
+  border: none;
+}
+
+.tour-edit-input{
+  margin: 0 auto 15px auto;
+  padding: 10px 0;
+  display: block;
+  color: #BFBFBF;
+  font-size: 15px;
+  font-family: Gotham;
+  text-align: center;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 2px #0d0d0d;
+  background-color: #222222;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  box-shadow: 2px 2px 6px #0d0d0d;
+}
+
+.tour-edit-address{
+  width: 200%;
+}
+
+.tour-edit-link{
+  width: 200%;
+}
+
+.tour-edit-place{
+  width: 200%;
+}
+
+.tour-edit-date{
+  width: 120%;
+}
+
+
+.tour-edit-button{
+  margin: 0 auto 40px auto;
+  padding: 8.5px 0;
+  width: 150px;
+  display: block;
+  background-color: #252525;
+  border: none;
+  border-radius: 2px;
+  text-align: center;
+  font-size: 18px;
+  font-family: Gotham;
+  letter-spacing: 2px;
+  color: #AFAFAF;
+  text-shadow: 2px 2px 2px #0d0d0d;
+  box-shadow: 2px 2px 6px #0d0d0d;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  cursor:pointer;
+}
+
+.tour-edit-button:hover{
+  box-shadow: 2px 4px 8px #0d0d0d;
+  text-shadow: 2px 3px 3px #0d0d0d
+}
+

@@ -1,0 +1,119 @@
+/* News Section */
+.news{
+  margin: 0 auto 40px auto;
+  width: 60%;
+}
+
+.news-admin-button{
+  margin: 0 auto 20px auto;
+  padding: 7.5px 0;
+  width: 200px;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2.2px solid rgba(13, 13, 13, 0.8);
+  border-radius: 2px;
+  text-align: center;
+  font-size: 18px;
+  font-family: Gotham;
+  letter-spacing: 2px;
+  color: #AFAFAF;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.news-admin-button:hover{
+  color: #8F8F8F;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 2.2px solid rgba(13, 13, 13, 0.6);
+}
+
+.news-article{
+  margin-bottom: 20px;
+  padding: 20px 0 20px 0;
+  background-image: url("../images/article-background.jpg");
+  background-size: cover;
+  box-shadow: 2px 2px 6px #0d0d0d;
+}
+
+.news-article-header{
+  margin-bottom: 20px;
+  color: #BFBFBF;
+  font-family: Gotham;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.news-article-header p{
+  font-size: 12px;
+}
+
+.news-article-picture{
+  margin: 0 auto 20px auto;
+  width: auto;
+  height: 281px;
+  display: flex;
+  justify-content: center;
+}
+
+.news-article-picture img{
+  box-shadow: 2px 2px 30px #0d0d0d;
+}
+
+.news-article-video{
+  margin: 0 auto 20px auto;
+  width: 500px;
+  height: 279px;
+  box-shadow: 2px 2px 38px #000;
+}
+
+.news-article-video:hover{
+  box-shadow: 2px 2px 40px #000;
+}
+
+.news-article-text{
+  margin: 0 10% 10px 10%;
+  display: block;
+  color: #C5C5C5;
+  font-size: 17px;
+  text-align: center;
+}
+
+/* Responsivity */
+@media screen and (max-width: 1150px){
+  .news{
+    width: 80%;
+  }
+  .news-article-video{
+    width: 400px;
+    height: 223px;
+  }
+  .news-article-picture{
+    height: 225px;
+  }
+}
+@media screen and (max-width: 775px){
+  .news-article-video{
+    width: 300px;
+    height: 169px;
+  }
+  .news-article-picture{
+    height: 169px;
+  }
+}
+@media screen and (max-width: 575px){
+  .news-article-video{
+    width: 250px;
+    height: 140px;
+  }
+  .news-article-picture{
+    height: 140px;
+  }
+}
+@media screen and (max-width: 376px){
+  .news{
+    width: 90%;
+  }
+}
