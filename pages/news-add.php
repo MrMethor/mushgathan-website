@@ -1,5 +1,5 @@
 <?php
-  if(isset($_POST['submit'])){
+  if(isset($_POST['add'])){
     $titleError = $textError = $radioError = $linkError = $pictureError = '';
     $title = $text = $link = '';
     $errorStyle = 'border-bottom: 1px solid rgba(189, 44, 32, 0.8);';
