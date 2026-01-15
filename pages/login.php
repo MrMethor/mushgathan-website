@@ -73,7 +73,7 @@
   <form method="post">
     <div class="login-form">
       <div class="login-text-section">
-        <input style="<?php echo $usernameEmailError;?>" class="login-text" type="text" name="username-email" value="<?php echo $_POST['username-email'];?>" placeholder="Username/Email" maxlength="24">
+        <input style="<?php echo $usernameEmailError;?>" class="login-text" type="text" name="username-email" value="<?php echo $_POST['username-email'];?>" placeholder="Username / Email" maxlength="24">
         <input style="<?php echo $passwordError;?>" class="login-text" type="password" name="password" placeholder="Password" maxlength="30">
       </div>
       <?php
