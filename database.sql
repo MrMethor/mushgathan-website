@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: sql100.infinityfree.com
--- Generation Time: Jan 29, 2026 at 05:50 PM
+-- Generation Time: Jan 29, 2026 at 05:55 PM
 -- Server version: 11.4.9-MariaDB
 -- PHP Version: 7.2.22
 
@@ -85,13 +85,6 @@ CREATE TABLE `Users` (
   `Picture` tinyint(4) NOT NULL DEFAULT 0,
   `Privilage` char(1) NOT NULL DEFAULT 'D'
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
-
---
--- Dumping data for table `Users`
---
-
-INSERT INTO `Users` (`ID`, `Username`, `Email`, `Password`, `Date`, `Picture`, `Privilage`) VALUES
-(1, 'admin', 'arnoldpepek@gmail.com', 'c7315f106b89da7a4454426491def6eedf115e92', '2026-01-15', 1, 'A');
 
 -- --------------------------------------------------------
 
