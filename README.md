@@ -9,3 +9,9 @@ Features:
 - portability for the majority of screen resolutions
 
 https://mushgathan.infinityfree.me/
+
+-------------or--------------
+
+http://mushgathan.infinityfree.me/
+
+(If the server feels like it)
