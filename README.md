@@ -1,7 +1,7 @@
 # [Mushgathan Website](https://mushgathan.wasmer.app/)
 ## Description
 Music band website written using HTML, CSS, PHP and MySQL.
-* Status - COMPLETE
+* Status - **COMPLETE**
 ### Features
 * displaying and creating posts
 * account creation and management
